@@ -1,0 +1,13 @@
+---
+title: "eventdataR"
+author: "Gert Janssenswillen"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{About eventdataR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+This package contains several event datasets. They can be used in combination with functionalities provided by the bupaR packages edeaR, processmapR, etc.
+
+For more information, please check <https://www.bupar.net>
