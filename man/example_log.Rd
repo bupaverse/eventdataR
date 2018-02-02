@@ -3,18 +3,13 @@
 \docType{data}
 \name{example_log}
 \alias{example_log}
-\alias{example_log}
 \alias{patients}
-\title{Example eventlog}
-\format{Eventlog containing 12766 events}
+\title{Patients eventlog}
+\format{Eventlog containing 500 patient cases}
 \usage{
-example_log
-
 patients
 }
 \description{
-Artifical eventlog
-
 Artifical eventlog about patients
 }
 \keyword{datasets}
