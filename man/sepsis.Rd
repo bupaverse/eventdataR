@@ -4,7 +4,7 @@
 \name{sepsis}
 \alias{sepsis}
 \title{Sepsis Cases - Event Log}
-\format{An object of class \code{eventlog} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 15214 rows and 35 columns.}
+\format{Eventlog containing 1050 cases}
 \source{
 <http://data.4tu.nl/repository/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460>
 }
