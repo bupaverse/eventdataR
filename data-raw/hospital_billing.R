@@ -14,7 +14,8 @@ read_csv2("data-raw/hospital_billing.csv") %>%
 			 activity_instance_id = "activity_instance_id",
 			 lifecycle_id = "lifecycle",
 			 timestamp = "timestamp",
-			 resource_id = "resource") -> hospital_billing
+			 resource_id = "resource") %>%
+	slice(1:10000) -> hospital_billing
 
 devtools::use_data(hospital_billing, overwrite = TRUE, compress = 'xz')
 

@@ -14,7 +14,8 @@ read_csv2("data-raw/traffic_fines.csv") %>%
 			 activity_instance_id = "activity_instance_id",
 			 lifecycle_id = "lifecycle",
 			 timestamp = "timestamp",
-			 resource_id = "resource") -> traffic_fines
+			 resource_id = "resource") %>%
+	slice(1:10000) -> traffic_fines
 
 devtools::use_data(traffic_fines, overwrite = TRUE, compress = 'xz')
 
