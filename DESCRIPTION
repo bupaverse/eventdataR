@@ -1,7 +1,7 @@
 Package: eventdataR
 Type: Package
 Title: Event Data Repository
-Version: 0.2.0
+Version: 0.2.0.9000
 Date: 2018-03-19
 Authors@R: person("Gert","Janssenswillen", email = "gert.janssenswillen@uhasselt.be", 
   role = c("aut","cre"))
@@ -10,7 +10,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.0)
-URL: https://www.bupar.net
+URL: https://www.bupar.net, https://github.com/bupaverse/eventdataR
+BugReports: https://github.com/bupaverse/eventdataR/issues
 RoxygenNote: 6.0.1
 VignetteBuilder: knitr
 Suggests: knitr, rmarkdown
