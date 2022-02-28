@@ -10,7 +10,7 @@ read_csv("data-raw/patients.csv") %>%
 			 timestamp = "time",
 			 resource_id = "employee") -> patients
 
-devtools::use_data(patients, overwrite = TRUE, compress = 'xz')
+usethis::use_data(patients, overwrite = TRUE, compress = 'xz')
 
 
 

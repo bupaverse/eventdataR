@@ -17,7 +17,7 @@ read_csv2("data-raw/traffic_fines.csv") %>%
 			 resource_id = "resource") %>%
 	slice(1:10000) -> traffic_fines
 
-devtools::use_data(traffic_fines, overwrite = TRUE, compress = 'xz')
+usethis::use_data(traffic_fines, overwrite = TRUE, compress = 'xz')
 
 
 

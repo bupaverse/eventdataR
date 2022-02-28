@@ -17,7 +17,7 @@ read_csv2("data-raw/hospital_billing.csv") %>%
 			 resource_id = "resource") %>%
 	slice(1:10000) -> hospital_billing
 
-devtools::use_data(hospital_billing, overwrite = TRUE, compress = 'xz')
+usethis::use_data(hospital_billing, overwrite = TRUE, compress = 'xz')
 
 
 

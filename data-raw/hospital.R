@@ -16,7 +16,7 @@ read_csv2("data-raw/hospital.csv") %>%
 			 timestamp = "timestamp",
 			 resource_id = "group") -> hospital
 
-devtools::use_data(hospital, overwrite = TRUE, compress = 'xz')
+usethis::use_data(hospital, overwrite = TRUE, compress = 'xz')
 
 
 
